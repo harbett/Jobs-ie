@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Validator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Jobs.ie</h2>
+      <form id="form" class="form">
+        <div class="form-control">
+          <input type="text" id="username" placeholder="Course Keyword" />
+        </div>
+
+        <select
+          name="course"
+          id="course"
+          form="courseform"
+          place-holder="Seleccione curso"
+        >
+          <option value="selected">Course Location</option>
+          <option value="Carlow">Carlow / Distance</option>
+          <option value="Cavan">Cavan</option>
+          <option value="Cork">Cork</option>
+        </select>
+
+        <select
+          name="categorie"
+          id="categorie"
+          form="categorieform"
+          place-holder="Course Categories"
+        >
+          <option value="selected">Course Categories</option>
+          <option value="Arquitecture">Arquitecture</option>
+          <option value="Design">Design</option>
+          <option value="Developer">Developer TI</option>
+        </select>
+
+        <select
+          name="timetable "
+          id="timetable"
+          form="timetableform"
+          place-holder="Timetable"
+        >
+          <option value="selected">Timetable</option>
+          <option value="part-time">Part-time</option>
+          <option value="evening">Evening</option>
+          <option value="fulltime">Fulltime</option>
+          <option value="not-specified">Not specified</option>
+        </select>
+      </form>
+      <button>ENVIAR</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
